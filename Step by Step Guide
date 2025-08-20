@@ -1,0 +1,9 @@
+1) Set up both virtual machines on VirtualBox with the storage allocated to have 2048MB. The network has a bridged connection in order to ensure that each virtual machine is able to communicate on the same IP subnet.
+Screenshots have been attached to the repository for visuals.
+
+2) Next, the Ubuntu server needs to be configured in order install all of the dependencies needed to run the Safeline WAF. Programs like Apache2, PHP, and MySQL will be installed.
+
+3) Now that the server is set up, we need to install DVWA (Damn Vulnerable Web Application) which is what we're going to be using in order to test out well-known vulnerabilities. If the WAF was installed and configured correctly, it
+should be able to block the vulnerability from being exploited.
+
+4) 
