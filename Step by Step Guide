@@ -7,6 +7,6 @@ Screenshots have been attached to the repository for visuals.
 should be able to block the vulnerability from being exploited.
 
 4) When configuring the DVWA database, the config file in DVWA/config is named config.inc.php.dist. I changed the user from 'dvwa' to 'dvwa_user' as it coincided with the database
-name and added the line "$_DVWA[ ''db_host' ] = getenv('DB_HOST') ?: 'localhost';"
+name and I had to copy the .dist file to config.inc.php by using the command line prompt "sudo cp config.inc.php.dist config.inc.php" in order for the DVWA site to show up on the Kali machine.
 
 5) 
