@@ -9,4 +9,6 @@ should be able to block the vulnerability from being exploited.
 4) When configuring the DVWA database, the config file in DVWA/config is named config.inc.php.dist. I changed the user from 'dvwa' to 'dvwa_user' as it coincided with the database
 name and I had to copy the .dist file to config.inc.php by using the command line prompt "sudo cp config.inc.php.dist config.inc.php" in order for the DVWA site to show up on the Kali machine.
 
-5) 
+5) After configuring both Apache2 files, I attempted to restart Apache using systemct1 instead of systemctl (putting this here as a reminder of the correct command).
+
+6) 
