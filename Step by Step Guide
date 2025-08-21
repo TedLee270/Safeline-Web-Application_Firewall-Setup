@@ -6,4 +6,7 @@ Screenshots have been attached to the repository for visuals.
 3) Now that the server is set up, we need to install DVWA (Damn Vulnerable Web Application) which is what we're going to be using in order to test out well-known vulnerabilities. If the WAF was installed and configured correctly, it
 should be able to block the vulnerability from being exploited.
 
-4) 
+4) When configuring the DVWA database, the config file in DVWA/config is named config.inc.php.dist. I changed the user from 'dvwa' to 'dvwa_user' as it coincided with the database
+name and added the line "$_DVWA[ ''db_host' ] = getenv('DB_HOST') ?: 'localhost';"
+
+5) 
