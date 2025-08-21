@@ -11,4 +11,6 @@ name and I had to copy the .dist file to config.inc.php by using the command lin
 
 5) After configuring both Apache2 files, I attempted to restart Apache using systemct1 instead of systemctl (putting this here as a reminder of the correct command).
 
-6) 
+6) In the MySQL database, we inserted custom data with relatively simple username/password combinations in order to test for SQL injections.
+
+7) 
