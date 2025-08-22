@@ -14,3 +14,10 @@ name and I had to copy the .dist file to config.inc.php by using the command lin
 6) In the MySQL database, we inserted custom data with relatively simple username/password combinations in order to test for SQL injections.
 
 7) After the installation of the Safeline WAF, we are provided a username/password combination along with the IP address in order to access it on the Kali Linux machine.
+
+8) In order to create a self-signed certificate, I had to use the following command prompts:
+* sudo openssl genrsa -out priv.key 4096 (this creates a key that will be used to sign the certificate)
+* sudo openssl req -new -key priv.key -out priv.csr (this will prompt you to enter in information that will be added to the certificate)
+* sudo openssl x509 -req -days 365 -in priv.csr -signkey priv.key -out priv.crt (this creates the certificate that is shown in the screenshot that corresponds to this step)
+
+9)
