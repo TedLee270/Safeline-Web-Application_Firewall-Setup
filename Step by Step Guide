@@ -13,4 +13,4 @@ name and I had to copy the .dist file to config.inc.php by using the command lin
 
 6) In the MySQL database, we inserted custom data with relatively simple username/password combinations in order to test for SQL injections.
 
-7) 
+7) After the installation of the Safeline WAF, we are provided a username/password combination along with the IP address in order to access it on the Kali Linux machine.
